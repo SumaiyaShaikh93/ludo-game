@@ -1,0 +1,44 @@
+*{
+    margin: 0;  padding: 0;
+    /* background-color: rgb(156, 145, 145); */
+}
+
+.body{
+    background-image: url(./image/univeerse.jpg) ; background-position: center;
+    background-repeat: no-repeat; background-size: cover;  height: 100vh;
+
+}
+
+h1{
+    margin: 30px 60px 30px;  text-shadow: 5px 0 white;
+    font-style: bold;  font-size: 5.5rem;  color: #f6b93b;
+
+}
+
+p{
+    font-size: 2.5rem; color: #8ba320;
+    text-shadow: 1px 1px white; margin-bottom: 20px;
+}
+
+button{
+    padding: 10px; background-color: #af8737; color: white;
+    box-shadow: 1px 2px 3px rgb(174, 226, 52);
+}
+img{
+    width: 200px;
+}
+button:hover{
+    cursor: pointer;
+    background-color: rgb(170, 167, 162);
+    color: black;
+}
+
+.container{
+    width: 70%;  margin: auto;  text-align: center;
+ }
+
+.dice{
+    text-align: center; 
+    display: inline-block; 
+    margin: 20px;
+ }
